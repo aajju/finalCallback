@@ -6,5 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.choisroyalfamily.massivcode.finalcallback.MainActivity">
 
+    <fragment
+        android:id="@+id/memo_fragment"
+        android:name="com.choisroyalfamily.massivcode.finalcallback.MemoFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_memo" />
+
 
 </LinearLayout>
